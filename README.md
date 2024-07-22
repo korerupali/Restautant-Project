@@ -16,12 +16,3 @@ Contact: Offers various ways to get in touch with the restaurant, including phon
 ## JavaScript Form Validation:
 The JavaScript code snippet at the end of the document adds functionality to the contact form. It prevents the default form submission behavior and instead performs client-side validation checks on the input fields (name, email, and message). If any field fails validation, an error message is displayed next to the corresponding input field. If all inputs pass validation, an alert is shown indicating successful message submission, although the actual form submission to an email address (mailto:korerupali24@gmail.com) would not work due to security restrictions in modern browsers.
 
-## Best Practices Followed:
-
-Semantic HTML: The document uses semantic elements like <header>, <nav>, <section>, etc., which help improve accessibility and SEO.
-
-Responsive Design: The <meta name="viewport"> tag is included in the <head> section, ensuring the website scales properly on various devices.
-
-External CSS Linking: An external stylesheet (styles.css) is linked for styling, keeping the HTML clean and focused on structure.
-
-Alt Attributes for Images: Alt attributes are provided for images, improving accessibility for visually impaired users.
