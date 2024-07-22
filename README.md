@@ -14,7 +14,7 @@ Menu: Lists some of the restaurant's appetizers, main courses, and desserts. Eac
 Contact: Offers various ways to get in touch with the restaurant, including phone and email options. Additionally, it provides a contact form for users to send messages directly through the website. This section also includes a simple JavaScript form validation script to ensure that users fill out the form correctly before submission.
 
 ##JavaScript Form Validation:
-The JavaScript code snippet at the end of the document adds functionality to the contact form. It prevents the default form submission behavior and instead performs client-side validation checks on the input fields (name, email, and message). If any field fails validation, an error message is displayed next to the corresponding input field. If all inputs pass validation, an alert is shown indicating successful message submission, although the actual form submission to an email address (mailto:info@moonlightrestaurant.com) would not work due to security restrictions in modern browsers.
+The JavaScript code snippet at the end of the document adds functionality to the contact form. It prevents the default form submission behavior and instead performs client-side validation checks on the input fields (name, email, and message). If any field fails validation, an error message is displayed next to the corresponding input field. If all inputs pass validation, an alert is shown indicating successful message submission, although the actual form submission to an email address (mailto:korerupali24@gmail.com) would not work due to security restrictions in modern browsers.
 
 ##Best Practices Followed:
 
