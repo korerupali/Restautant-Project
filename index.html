@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant image project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="image1" id="home">
+        <img src="assets/image1.jpg" alt="">
+    </section>
+
+    <section id="about">
+        <div class="about-section">
+            <h1>About Moonlight Restaurant</h1>
+            <img src="assets/about-image.jpg" alt="Moonlight Restaurant">
+            <p>Welcome to Moonlight Restaurant, where culinary dreams come true under the shimmering night sky. Nestled
+                in the heart of kalyan, Moonlight Restaurant offers a serene and enchanting dining experience that
+                combines exquisite cuisine with a warm, inviting atmosphere.</p>
+
+            <h2>Our Story</h2>
+            <p>At Moonlight Restaurant, we believe in the magic of food and the joy it brings to people. Our journey
+                began with a passion for creating memorable dining experiences that delight the senses. Every dish we
+                serve is crafted with the freshest ingredients, meticulous attention to detail, and a touch of love.</p>
+
+            <h2>Our Cuisine</h2>
+            <p>Indulge in a diverse menu that features a blend of traditional favorites and innovative creations. Our
+                talented chefs bring their expertise and creativity to every plate, ensuring that each bite is a
+                symphony of flavors. Whether you're in the mood for a classic dish or an adventurous new taste,
+                Moonlight Restaurant has something to satisfy every palate.</p>
+
+            <h2>The Ambiance</h2>
+            <p>Step into Moonlight Restaurant and be transported to a world of elegance and charm. Our beautifully
+                designed interior, adorned with soft lighting and tasteful décor, creates the perfect setting for any
+                occasion. Whether you're enjoying a romantic dinner for two, celebrating with friends, or hosting a
+                special event, our warm and attentive staff will make you feel right at home.</p>
+
+            <h2>Our Commitment</h2>
+            <p>At Moonlight Restaurant, we are dedicated to providing an exceptional dining experience. We take pride in
+                our commitment to quality, sustainability, and customer satisfaction. From our farm-to-table ingredients
+                to our environmentally conscious practices, we strive to make a positive impact on our community and the
+                world around us.</p>
+
+            <p>Join us at Moonlight Restaurant and let us make your dining experience truly magical. We look forward to
+                welcoming you under the moonlight.</p>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <div class="gallery-section">
+            <h1>Restaurant Images</h1>
+            <div class="gallery-container">
+                <div class="gallery-item">
+                    <img src="assets/gallery img4.jpg" alt="Delicious Dish 1">
+
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/gallery img5.jpg" alt="Elegant Interior">
+
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/gallery img6.jpg" alt="Exquisite Dessert">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu">
+        <div class="menu-section">
+            <img src="assets/gallery img1.jpg" alt="Restaurant Menu">
+            <h1>Our Menu</h1>
+            <ul class="menu-list">
+                <li class="menu-item">
+                    <h2>Appetizer: Crispy Calamari</h2>
+                    <p>Lightly breaded calamari served with a zesty marinara sauce and a lemon wedge.</p>
+                </li>
+                <li class="menu-item">
+                    <h2>Main Course: Grilled Salmon</h2>
+                    <p>Perfectly grilled salmon fillet topped with a dill sauce, served with seasonal vegetables and
+                        roasted potatoes.</p>
+                </li>
+                <li class="menu-item">
+                    <h2>Dessert: Chocolate Fondant</h2>
+                    <p>Rich chocolate fondant with a molten center, accompanied by a scoop of vanilla ice cream and
+                        fresh berries.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-section">
+            <h1>Contact Us</h1>
+            <div class="contact-info">
+                <p><strong>Phone:</strong> <a href="tel:+91775964543">+91775964543</a></p>
+                <p><strong>Email:</strong> <a href="mailto:korerupali24@gmail.com">korerupali24@gmail.com</a></p>
+            </div>
+            <div class="contact-form">
+                <h2>Send Message</h2>
+                <form action="mailto:info@moonlightrestaurant.com" method="post" enctype="text/plain">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <span id="nameError" class="error-message"></span>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <span id="emailError" class="error-message"></span>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                    <span id="messageError" class="error-message"></span>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
